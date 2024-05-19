@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: transparent;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,0.05));
+}
+.nav-icon {
+    height: 56px;
+    width: 180px;
+    background-color: aliceblue;
+    margin-left: 8rem;
+}
+.logo {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-image: url("netflixLogo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.lang-but {
+    position: relative;
+    margin-left: 700px;
+    margin-right: 10px;
+}
+.lang {
+    width: 120px;
+    height: 32px;
+    font-size: 1rem;
+    background-color: transparent;
+    border-style: none;
+    color: aliceblue;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid white;
+}
+.signin {
+    position: relative;
+    /* margin-right: 50px; */
+}
+.sign {
+    width: 77px;
+    height: 32px;
+    font-size: .9rem;
+    background-color: red;
+    border-style: none;
+    border-radius: 4px;
+    color: aliceblue;
+    font-weight: 600;
+    cursor: pointer;
+}
+.hero {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url("hero_sectionPic.jpg");
+    background-size: cover;
+    height: 660px;
+}
+.middle-writing {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    align-items: center;
+}
+.big-tag h1{
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.mid-tag {
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+.end-tag {
+    color: aliceblue;
+    font-weight: 600;
+}
+.mail-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.mail-space {
+    border: 1px solid white;
+    width: 360px;
+    height: 56px;
+    margin-right: 8px;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    /* border-style: none; */
+    padding: 5px;
+    color: aliceblue;
+    background-color: rgba(17, 50, 94, 0.342);
+}
+.mail {
+    position: relative;
+    
+}
+.mail label {
+    position: absolute;
+    top: 4px;
+    left: 0;
+    margin-top: 12px;
+    margin-left: 7px;
+    font-size: 1.1rem;
+    /* transition: .6s; */
+    pointer-events: none;
+    color: rgb(196, 196, 197);
+}
+.mail-box input:focus ~ label,
+.mail-box input:valid ~ label{
+    top: -7px;
+    left: 0;
+    font-size: .75rem;
+    transition: .4s;
+}
+.mail-but {
+    margin-left: 5px;
+    width: 210px;
+    height: 56px;
+    font-size: 1.8rem;
+    background-color: red;
+    color: aliceblue;
+    border-style: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.partition1 {
+    width: 100%;
+    height: 8px;
+    background-color: rgb(70, 70, 70);
+}
+/* hero 2 portion */
+.hero-2 {
+    height: 30rem;
+    background-color: rgba(0, 0, 0);
+    display: flex;
+}
+.hero2-left {
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    
+}
+.hero2-left h3 {
+    margin-top: 20%;
+    margin-left: 20%;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+.hero2-left p {
+    margin-left: 20%;
+    font-size: 1.5rem;
+    color:aliceblue;
+}
+.hero2-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    /* height: 100%; */
+}
+.hero2-img {
+    background-image: url("hero2pic.png");
+    background-size: cover;
+    height: 65%;
+    width: 70%;
+}
+/* hero 3 */
+
+.hero-3 {
+    height: 30rem;
+    background-color: rgba(0, 0, 0);
+    display: flex;
+}
+.hero3-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    /* height: 100%; */
+}
+.hero3-img {
+    background-image: url("hero3pic.jpg");
+    background-size: cover;
+    height: 75%;
+    width: 70%;
+}
+.hero3-right {
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    
+}
+.hero3-right h3 {
+    margin-top: 12%;
+    margin-left: 20%;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+.hero3-right p {
+    margin-left: 20%;
+    font-size: 1.5rem;
+    color:aliceblue;
+}
+/* hero 4 watch everywhere */
+.hero-4 {
+    height: 30rem;
+    background-color: rgba(0, 0, 0);
+    display: flex;
+}
+.hero4-left {
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+    
+}
+.hero4-left h3 {
+    margin-top: 20%;
+    margin-left: 20%;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+.hero4-left p {
+    margin-left: 20%;
+    font-size: 1.5rem;
+    color:aliceblue;
+}
+.hero4-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    /* height: 100%; */
+}
+.hero4-img {
+    background-image: url("hero4pic.png");
+    background-size: cover;
+    height: 65%;
+    width: 70%;
+}
+/* hero 5 child section */
+.hero-5 {
+    height: 30rem;
+    background-color: rgba(0, 0, 0);
+    display: flex;
+}
+.hero5-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    /* height: 100%; */
+}
+.hero5-img {
+    background-image: url("hero5pic_child.png");
+    background-size: cover;
+    height: 75%;
+    width: 70%;
+}
+.hero5-right {
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+}
+.hero5-right h3 {
+    margin-top: 12%;
+    margin-left: 10%;
+    margin-right: 12%;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: aliceblue;
+}
+.hero5-right p {
+    margin-left: 10%;
+    margin-right: 12%;
+
+    font-size: 1.5rem;
+    color:aliceblue;
+}
+/* footer */
+.footer-ques {
+    padding-left: 10rem;
+    height: 5rem;
+    color: aliceblue;
+    background-color: black;
+    padding-top: 3.8rem;
+}
+.footer-ques a {
+    color: aliceblue;
+}
+.list-section a{
+    display: block;
+    color: aliceblue;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.list-section {
+    padding-top: 1rem;
+    padding-left: 7.3rem;
+    padding-right: 7.3rem;
+    padding-bottom: 1rem;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.endlang {
+    height: 8rem;
+    background-color: black;
+    padding-left: 9.8rem;
+    padding-top: .5rem;
+
+}
+/* .lang {
+    width: 120px;
+    height: 32px;
+    font-size: 1rem;
+    background-color: transparent;
+    border-style: none;
+    color: aliceblue;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid white;
+} */
+.endlang p {
+    margin-top: .8rem;
+    color: aliceblue;
+}
